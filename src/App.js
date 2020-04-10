@@ -2,6 +2,7 @@ import React from 'react';
 import Countries from './components/Countries';
 import Global from './components/Global';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Header />
       <Global />
       <Countries />
+      <Footer />
     </div>
   );
 }
